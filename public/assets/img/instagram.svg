@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33.193" height="33.232" viewBox="0 0 33.193 33.232">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="background" width="32.193" height="32.233" rx="16.096" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_12" data-name="Group 12" transform="translate(-1110.255 -26.325)">
+    <g id="Component_22_2" data-name="Component 22 – 2" transform="translate(1110.755 26.825)">
+      <g id="Mask_Group_7" data-name="Mask Group 7" clip-path="url(#clip-path)">
+        <rect id="Rectangle_50" data-name="Rectangle 50" width="51.589" height="33.574" rx="7" transform="translate(-10.002 32.509)" fill="#fb0"/>
+        <g id="Symbol" transform="translate(8.048 7.76)">
+          <g id="Group_10" data-name="Group 10" transform="translate(0 0)">
+            <path id="Path_10" data-name="Path 10" d="M13.978,10.723a4.13,4.13,0,0,0-2.356,2.355,5.9,5.9,0,0,0-.373,1.956c-.039.858-.049,1.133-.049,3.322s.01,2.463.049,3.322a5.983,5.983,0,0,0,.373,1.956,4.123,4.123,0,0,0,2.356,2.358,5.878,5.878,0,0,0,1.953.373c.857.039,1.132.049,3.317.049s2.46-.01,3.317-.049a5.963,5.963,0,0,0,1.953-.373,4.123,4.123,0,0,0,2.356-2.358,5.9,5.9,0,0,0,.373-1.956c.039-.858.049-1.133.049-3.322s-.01-2.463-.049-3.322a5.983,5.983,0,0,0-.373-1.956,4.112,4.112,0,0,0-2.352-2.355,5.878,5.878,0,0,0-1.953-.373c-.857-.039-1.132-.049-3.317-.049s-2.46.01-3.317.049A5.8,5.8,0,0,0,13.978,10.723ZM22.5,11.8a4.429,4.429,0,0,1,1.5.278,2.664,2.664,0,0,1,1.528,1.53,4.443,4.443,0,0,1,.278,1.5c.039.848.046,1.1.046,3.256s-.01,2.408-.046,3.256a4.443,4.443,0,0,1-.278,1.5A2.664,2.664,0,0,1,24,24.641a4.429,4.429,0,0,1-1.5.278c-.847.039-1.1.046-3.252.046s-2.4-.01-3.252-.046a4.429,4.429,0,0,1-1.5-.278,2.664,2.664,0,0,1-1.528-1.53,4.444,4.444,0,0,1-.278-1.5c-.039-.848-.046-1.1-.046-3.256s.01-2.408.046-3.256a4.444,4.444,0,0,1,.278-1.5,2.664,2.664,0,0,1,1.528-1.53A4.429,4.429,0,0,1,16,11.8c.847-.039,1.1-.046,3.252-.046S21.653,11.758,22.5,11.8Z" transform="translate(-11.2 -10.3)" fill="#fff"/>
+            <path id="Path_11" data-name="Path 11" d="M130.9,134.137A4.132,4.132,0,1,0,135.032,130,4.135,4.135,0,0,0,130.9,134.137Zm6.815,0a2.683,2.683,0,1,1-2.683-2.686A2.684,2.684,0,0,1,137.715,134.137Z" transform="translate(-126.984 -126.079)" fill="#fff"/>
+            <ellipse id="Ellipse_11" data-name="Ellipse 11" cx="0.965" cy="0.966" rx="0.965" ry="0.966" transform="translate(11.382 2.791)" fill="#fff"/>
+          </g>
+        </g>
+        <rect id="background-2" data-name="background" width="32.193" height="32.233" rx="16.096" fill="none" stroke="#fff" stroke-width="1"/>
+      </g>
+    </g>
+    <rect id="background-3" data-name="background" width="32.193" height="32.233" rx="16.096" transform="translate(1110.755 26.825)" fill="none" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>

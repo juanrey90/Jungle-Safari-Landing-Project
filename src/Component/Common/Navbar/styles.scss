@@ -1,0 +1,144 @@
+.navbar {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 84.375%;
+    left: 7.8125%;
+    margin-top: 3.75vw;
+    .connect {
+        background-image: linear-gradient(#0dccea, #0d70ea);
+        border: 0;
+        border-radius: 4px;
+        box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        font-family: Montserrat,sans-serif;
+        font-size: .9em;
+        margin: 5px;
+        padding: 10px 15px;
+        text-align: center;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+    }
+    .left {
+        .reduce {
+            display: none;
+            cursor: pointer;
+        }
+
+        a {
+            font-family: 'UomoBold';
+            font-size: 1.04vw;
+            text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            margin-right: 1.56vw;
+        }
+    }
+
+    .right {
+        z-index: 1;
+
+        img {
+            margin-left: 10px;
+            width: 3vw;
+            cursor: pointer;
+            transition: all .2s ease-in-out!important;
+            &:hover {
+              transition: all .2s ease-in-out!important;
+              opacity: 0.8;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 84.375%;
+        left: 7.8125%;
+        margin-top: 3.75vw;
+
+        .left {
+            &:hover {
+
+                .sidenav {
+                    width: 100%;
+                    background: rgba($color: #000000, $alpha: 0.8);
+                }
+
+                a.links {
+                    display: block;
+                    color: #fff;
+
+                    &:hover {
+                        background-color: grey;
+                    }
+                }
+            }
+
+            .sidenav {
+                height: 100vw;
+                width: 0;
+                position: fixed;
+                z-index: 999;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+                cursor: pointer;
+            }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 6vw;
+                color: #fff;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .reduce {
+                display: block;
+                font-size: 10vw;
+            }
+
+            a {
+                display: none;
+                font-family: 'UomoBold';
+                font-size: 1.04vw*4;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-right: 1.56vw;
+                line-height: 10vw;
+            }
+        }
+
+        .right {
+            img {
+                margin-left: 10px;
+                margin-top: 1vw;
+                width: 3vw*3;
+                border-radius: 50%;
+                cursor: pointer;
+
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,202 @@
+.discover {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    // background-color: rgba(0, 0, 0, 0.35);
+
+    .left {
+        color: white;
+        flex: 50%;
+        margin-top: 10vw;
+        padding-left: 7.8125vw;
+        padding-bottom: 5vw;
+
+        p {
+            text-align: center;
+            color: white;
+        }
+
+        .title {
+            line-height: 5.205vw;
+            font-size: 3.4vw;
+        }
+
+        .max-price {
+            font-size: 1.04vw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .current-price {
+            font-size: 1.04vw;
+        }
+
+        .spin-price {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .minus,
+            .plus {
+                cursor: pointer;
+                width: 2.5vw;
+                text-align: center;
+                display: inline-block;
+                user-select: none;
+                background: transparent;
+                color: white;
+                font-size: 2.08vw;
+                line-height: 2.08vw;
+                z-index: 2;
+
+                span {
+                    display: inline-block;
+                    width: 2.08vw;
+                    height: 2.08vw;
+                }
+
+                &:hover {
+                    opacity: 0.4;
+                }
+
+                &:active {
+                    background: #170725;
+                    color: white;
+                }
+            }
+
+            .spin-value {
+                font-size: 2.08vw;
+                margin: 0px 3vw;
+                user-select: none;
+            }
+        }
+
+        .minted-price {
+            font-size: 1.04vw;
+        }
+
+        .mint-btn {
+            text-align: center;
+
+            button {
+                height: 3.64vw;
+                font-size: 1.04vw;
+                border-radius: 1.04vw 0.026vw;
+            }
+        }
+    }
+
+    .right {
+        position: relative;
+        flex: 44%;
+        /* background: linear-gradient(219.79deg, #204959 -11.98%, rgba(44, 61, 94, 0.77713) 29.53%, rgba(84, 19, 111, 0) 90.18%); */
+
+        .image {
+            position: absolute;
+            margin-bottom: 0vw;
+            width: 85%;
+            height: 85%;
+            bottom: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .discover {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+
+        .left {
+            z-index: 1;
+            position: relative;
+            color: white;
+            flex: 100%;
+            margin-top: 20vw;
+            padding-left: 0vw;
+
+            p {
+                text-align: center;
+                color: white;
+            }
+
+            .title {
+                line-height: 13.205vw;
+                font-size: 5.2vw;
+            }
+
+            .max-price {
+                font-size: 3vw;
+                font-family: Helvetica, sans-serif;
+            }
+
+            .current-price {
+                font-size: 4vw;
+            }
+
+            .spin-price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                button {
+                    margin: 0 10vw;
+                }
+
+                .minus,
+                .plus {
+                    cursor: pointer;
+                    width: 10vw;
+                    text-align: center;
+                    display: inline-block;
+                    user-select: none;
+                    background: transparent;
+                    color: white;
+                    border-radius: 50%;
+
+                    &:hover {
+                        opacity: 0.4;
+                    }
+                }
+
+                .spin-value {
+                    font-size: 10vw;
+                    margin: 0px 10vw;
+                }
+            }
+
+            .minted-price {
+                font-size: 3vw;
+            }
+
+            .mint-btn {
+                text-align: center;
+                    width: 100%;
+
+                button {
+                    height: 12vw;
+                    font-size: 4vw;
+                    border-radius: 1.04vw*3 0.026vw*3;
+                }
+            }
+        }
+
+        .right {
+            position: absolute;
+            flex: 100%;
+            text-align: center;
+            margin-top: 20vw;
+            background: unset;
+            z-index: 0;
+
+            .image {
+                opacity: 0.1;
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,130 @@
+.footer {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 3.75vw;
+    padding-bottom: 3.125vw;
+    // background-color: rgba(0, 0, 0, 0.35);
+
+
+    color: white;
+
+    &-container {
+        width: 100%;
+    }
+
+    &-title {
+        font-family: 'UomoBold';
+        font-size: 3.125vw;
+        line-height: 4.42vw;
+        text-align: center;
+        color: white;
+    }
+
+    &-desc {
+        font-family: 'UomoBold';
+        font-size: 0.93vw;
+        line-height: 1.67vw;
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    &-links {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+
+        &-left {
+          padding-left: 3em;
+            img {
+                width: 3vw;
+                margin-right: 0.52vw;
+                cursor: pointer;
+                border-radius: 50%;
+
+                &:hover {
+                    opacity: 0.5;
+                }
+            }
+        }
+
+        &-right {
+            button {
+                height: 3.64vw;
+                font-size: 1.24vw;
+                border-radius: 1.24vw 0.26vw;
+                padding: 0px 2.08vw;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        position: relative;
+        // width: 40vw*2;
+        margin: auto;
+        // margin-top: 3.75vw*2;
+        padding-bottom: 3.125vw*2;
+
+
+        color: white;
+
+        &-container {
+            width: 100%;
+        }
+
+        &-title {
+            font-family: 'UomoBold';
+            font-size: 3.125vw*3;
+            line-height: 4.42vw*3;
+            text-align: center;
+            color: white;
+        }
+
+        &-desc {
+            font-family: 'UomoBold';
+            font-size: 0.93vw*3;
+            line-height: 1.67vw*3;
+            text-align: center;
+            text-transform: uppercase;
+            color: white;
+        }
+
+        &-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+            &-left {
+                flex: 100%;
+                text-align: center;
+
+                img {
+                    width: 3vw*4;
+                    margin-right: 0.52vw;
+                    cursor: pointer;
+                    border-radius: 50%;
+
+                    &:hover {
+                        opacity: 0.5;
+                    }
+                }
+            }
+
+            &-right {
+                flex: 100%;
+                margin-top: 2vw;
+
+                button {
+                    height: 3.64vw*3;
+                    font-size: 1.24vw*3;
+                    border-radius: 1.24vw*3 0.26vw*3;
+                    padding: 1vw 2vw;
+                }
+            }
+        }
+    }
+}

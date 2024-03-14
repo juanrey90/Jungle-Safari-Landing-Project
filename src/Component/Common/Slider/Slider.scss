@@ -1,0 +1,46 @@
+.slider {
+    padding: 5vw 0;
+    overflow: hidden;
+
+    .sliderWrapper {
+        display: flex;
+        position: relative;
+        align-items: center;
+
+        height: 450px;
+    }
+
+    .slider__eachItem__pic {
+        border-radius: 15px 50px;
+    }
+
+    &__eachItem {
+        padding: 30px;
+        transition: all 0.5s;
+
+        div {
+            width: 277px;
+            height: 277px;
+
+            background-size: cover;
+
+            transition: all 0.5s;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .slider {
+        &__eachItem {
+            padding: 20px;
+        }
+    }
+}
+
+@media (max-width: 568px) {
+    .slider {
+        &__eachItem {
+            padding: 10px;
+        }
+    }
+}

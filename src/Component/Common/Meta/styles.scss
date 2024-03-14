@@ -1,0 +1,45 @@
+.meta {
+    width: 100%;
+    padding-top: 3.75vw;
+    padding-bottom: 3.75vw;
+    // background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+
+  /*   background-image: url('../../../artwork1.png');
+    background-size: cover;
+ */
+    &-container {
+        position: relative;
+        width: 100%;
+    }
+
+    &-title {
+        font-family: 'UomoBold';
+        font-size: 3.125vw;
+        line-height: 4.42vw;
+        text-align: center;
+        color: white;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .meta {
+        width: 100%;
+        // margin-top: 3.75vw;
+
+        color: white;
+
+        &-container {
+            position: relative;
+            width: 100%;
+        }
+
+        &-title {
+            font-family: 'UomoBold';
+            font-size: 3.125vw * 2;
+            line-height: 4.42vw * 2;
+            text-align: center;
+            color: white;
+        }
+    }
+}

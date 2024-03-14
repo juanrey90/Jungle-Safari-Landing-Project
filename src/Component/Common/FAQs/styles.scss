@@ -1,0 +1,169 @@
+.faqs {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 3.75vw;
+    // background-color: rgba(0, 0, 0, 0.35);
+    justify-content: center;
+
+    color: white;
+
+    &-container {
+        width: 84.375vw;
+
+        .trigger {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .trigger-title {
+                font-family: 'UomoBold';
+                font-size: 1.25vw;
+                margin-left: 1.04vw;
+                color: white;
+            }
+
+            .trigger-symbol {
+                padding: 1.04vw;
+                width: 4vw;
+            }
+        }
+    }
+
+    &-title {
+        font-family: 'UomoBold';
+        font-size: 3.125vw;
+        line-height: 4.42vw;
+        text-align: center;
+        color: white;
+    }
+
+    &-desc {
+        font-family: 'Helvetica';
+        font-size: 0.93vw;
+        line-height: 1.67vw;
+        text-align: center;
+    }
+
+    &-content {
+        &-item {    
+            user-select: none;
+            background: rgba($color: white, $alpha: 0.1);
+            border-radius: 1.04vw 0.52vw;
+            margin-bottom: 1.04vw;
+
+            .is-open {
+                .trigger-symbol {
+
+                    content: url('../../../assets/img/faqs/open.png')
+                }
+
+                .trigger {
+                    background: linear-gradient(270deg, #5695AC 0%, #56958E 100%);
+                    border-radius: 1.04vw 0.52vw 0px 0px;
+                }
+            }
+
+            .is-closed {
+                color: white;
+
+                .trigger-symbol {
+                    content: url('../../../assets/img/faqs/closed.png')
+                }
+            }
+
+            p {
+                font-family: 'Helvetica';
+                font-size: 1.2vw;
+                line-height: 1.67vw;
+                padding: 0.26vw 1.08vw;
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .faqs {
+        position: relative;
+        // width: 84.375vw;
+        margin: auto;
+        // margin-top: 3.75vw;
+
+        color: white;
+
+        &-container {
+            width: 84.375vw;
+
+            .trigger {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .trigger-title {
+                    font-family: 'UomoBold';
+                    font-size: 1.25vw*3;
+                    margin-left: 1.04vw*3;
+                    color: white;
+                }
+
+                .trigger-symbol {
+                    padding: 1.04vw*3;
+                    width: 4vw*3;
+                }
+            }
+        }
+
+        &-title {
+            font-family: 'UomoBold';
+            font-size: 3.125vw*3;
+            line-height: 4.42vw*3;
+            text-align: center;
+            color: white;
+        }
+
+        &-desc {
+            font-family: 'Helvetica';
+            font-size: 0.93vw*3;
+            line-height: 1.67vw*3;
+            text-align: center;
+        }
+
+        &-content {
+            &-item {
+                background: rgba($color: white, $alpha: 0.1);
+                border-radius: 1.04vw*3 0.52vw*3;
+                margin-bottom: 1.04vw*3;
+                padding: 1vw 0vw;
+
+                .is-open {
+                    .trigger-symbol {
+
+                        content: url('../../../assets/img/faqs/open.png')
+                    }
+
+                    .trigger {
+                        background: linear-gradient(270deg, #5695AC 0%, #56958E 100%);
+                        border-radius: 1.04vw*3 0.52vw*3 0px 0px;
+                    }
+                }
+
+                .is-closed {
+                    color: white;
+
+                    .trigger-symbol {
+                        content: url('../../../assets/img/faqs/closed.png')
+                    }
+                }
+
+                p {
+                    font-family: 'Helvetica';
+                    font-size: 0.93vw*3;
+                    line-height: 1.67vw*3;
+                    padding: 0.26vw*3 1.08vw*3;
+                    color: white;
+                }
+            }
+        }
+    }
+}

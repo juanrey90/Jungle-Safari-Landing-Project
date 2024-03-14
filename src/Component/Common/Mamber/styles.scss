@@ -1,0 +1,126 @@
+.mamber {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 3.75vw;
+    // background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    justify-content: center;
+
+    &-container {
+        width: 84.375vw;
+    }
+
+    &-title {
+        font-family: 'UomoBold';
+        font-size: 3.125vw;
+        line-height: 4.42vw;
+        text-align: center;
+        color: white;
+    }
+
+    &-content {
+        display: flex;
+        flex-wrap: wrap;
+
+        .mamber-item {
+            flex: 30%;
+            margin: 1.04vw;
+            text-align: center;
+            background: rgba($color: #FFF, $alpha: 0.25);
+            border-radius: 2.6vw 0.78vw;
+
+            .mamber-item-img {
+                text-align: center;
+
+                img {
+                    width: 80%;
+                    border-radius: 1.3vw;
+                }
+
+                margin-top: 1.04vw;
+            }
+
+            .mamber-item-name {
+                font-family: 'UomoBold';
+                font-size: 1.875vw;
+                line-height: 1.875vw;
+                margin-top: 1.04vw;
+                color: white;
+            }
+
+            .mamber-item-role {
+                font-family: 'UomoBold';
+                font-size: 1.25vw;
+                line-height: 1.875vw;
+                margin-top: 1.04vw;
+                margin-bottom: 1.04vw;
+                color: white;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .mamber {
+        position: relative;
+        // width: 84.375vw;
+        margin: auto;
+        // margin-top: 3.75vw;
+
+        color: white;
+
+        &-container {
+            width: 84.375vw;
+        }
+
+        &-title {
+            font-family: 'UomoBold';
+            font-size: 3.125vw * 2;
+            line-height: 4.42vw;
+            text-align: center;
+            color: white;
+        }
+
+        &-content {
+            display: flex;
+            flex-wrap: wrap;
+
+            .mamber-item {
+                flex: 100%;
+                margin: 1.04vw;
+                text-align: center;
+                background: rgba($color: #FFF, $alpha: 0.25);
+                border-radius: 2.6vw 0.78vw;
+
+                .mamber-item-img {
+                    text-align: center;
+
+                    img {
+                        width: 80%;
+                        border-radius: 1.3vw;
+                    }
+
+                    margin-top: 1.04vw*3;
+                }
+
+                .mamber-item-name {
+                    font-family: 'UomoBold';
+                    font-size: 1.875vw*3;
+                    line-height: 1.875vw*3;
+                    margin-top: 1.04vw*3;
+                    color: white;
+                }
+
+                .mamber-item-role {
+                    font-family: 'UomoBold';
+                    font-size: 1.25vw*3;
+                    line-height: 1.875vw*3;
+                    margin-top: 1.04vw*3;
+                    margin-bottom: 1.04vw*3;
+                    color: white;
+                }
+            }
+        }
+    }
+}

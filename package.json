@@ -1,0 +1,51 @@
+{
+  "name": "code",
+  "homepage": "https://jointheclan.io/",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "aos": "^2.3.4",
+    "ethers": "^5.6.2",
+    "merkletreejs": "^0.2.31",
+    "react": "^17.0.2",
+    "react-awesome-swiper": "^1.4.16",
+    "react-collapsible": "^2.8.4",
+    "react-dom": "^17.0.2",
+    "react-particles-js": "^3.6.0",
+    "react-router-dom": "^6.2.2",
+    "react-scripts": "4.0.3",
+    "react-scroll": "^1.8.6",
+    "react-toastify": "^8.2.0",
+    "sass": "^1.49.9",
+    "web-vitals": "^1.0.1",
+    "web3": "^1.7.1",
+    "zustand": "^3.7.1"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

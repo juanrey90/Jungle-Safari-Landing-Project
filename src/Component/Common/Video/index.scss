@@ -1,0 +1,29 @@
+// .video-container {
+//   width: 100%;
+//   position: relative;
+//   overflow: hidden;
+  .video-content {
+    // width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+  }
+// }
+
+@media screen and (max-width: 768px) {
+  /* .container {
+    width: 100%;
+    position: relative;
+    overflow: hidden; */
+    .video-content {
+      // width: 450%;
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+    }
+  // }
+}
